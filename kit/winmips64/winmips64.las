@@ -1,1 +1,1 @@
-Z:\home\ddmdavid\Desktop\lab3_responses\prog_data_delay_slots.s
+Z:\home\david\Repository\OC\Labs\lab3\kit\prog34.s
