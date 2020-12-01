@@ -23,16 +23,16 @@ loop:
       dsra $6, $1, 2       ; i / M
       dmul $6, $6, $21    ; (i / M)*sizeof(int64)
       lw $11, 0($3)
-      daddi $1,$1,1
+
       dmul $12, $10, $11
       daddi $4, $6, C  ; C[i / M]
-	  
+      
       lw $13, 0($4)
       dadd $12, $12, $13
 
       sw $12, 0($4)
 
       bne $1,$5, loop
-      
+	  daddi $1,$1,1 
 
       halt

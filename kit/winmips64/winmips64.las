@@ -1,1 +1,1 @@
-Z:\home\david\Repository\OC\Labs\lab3\kit\prog34.s
+Z:\home\david\Repository\OC\Labs\lab3\kit\prog_25.s
